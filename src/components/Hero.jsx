@@ -173,7 +173,7 @@ const Hero = ({ hasAnimated }) => {
                     </div> */}
 
                     {/* Scroll Indicator */}
-                    <div className='animate-bounce mt-20'>
+                    <div className='animate-bounce'>
                         <button
                             onClick={scrollToAbout}
                             className='group flex flex-col items-center mx-auto text-gray-600 hover:text-black transition-colors cursor-pointer'
